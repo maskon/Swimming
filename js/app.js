@@ -45,23 +45,27 @@ $(function () {
 
     /* Reviews https://kenwheeler.github.io/slick/*/
     $('.slider').slick({
-        arrows: false
-        , dots: true
+        infinite: true
+        ,arrows: false
+        , dots: false
         , slidesToShow: 4
         , responsive: [
             {
                 breakpoint: 1210
                 , settings: {
+                    dots: true,
                     slidesToShow: 3
                 }
             }, {
                 breakpoint: 991
                 , settings: {
+                    dots: true,
                     slidesToShow: 2
                 }
             }, {
                 breakpoint: 767
                 , settings: {
+                    dots: true,
                     slidesToShow: 1
                 }
             }
