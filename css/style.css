@@ -627,6 +627,7 @@ p {
     background-color: #f3f3f3;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     margin-top: 30px;
     -webkit-transition: box-shadow .3s linear;
 }
@@ -655,12 +656,17 @@ p {
     padding: 0 30px 30px 30px;
 }
 
+.Elipse__img-body {
+    display: flex;
+    justify-content: center;
+}
+
 .Elipse__img {
     width: 182px;
     height: 182px;
     border-radius: 50%;
     object-fit: cover;
-    margin: -100px 50px 0 50px;
+    margin: -80px 0 0 0;
 }
 
 
@@ -778,10 +784,19 @@ p {
 
 /* Слайдер */
 
+.slider {
+    margin-bottom: 100px;
+}
+
 /* Лента слайдов */
 
 .slick-track {
     display: flex;
+    margin: 70px 0 10px 0;
+}
+
+.slick-list {
+    overflow: hidden;
 }
 
 /* Точки (булиты) */
