@@ -1399,6 +1399,10 @@ p {
     .modal__title {
         font-size: 30px;
     }
+    
+    .modal .btn {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 591px) {
