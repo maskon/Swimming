@@ -1216,7 +1216,10 @@ p {
     }
     .header.fixed .nav__link {
         margin-left: 10px;
-        padding: 53px 10px;
+        padding: 15px 10px;
+    }
+    .header.fixed .nav__link:first-child {
+        margin-top: 30px;
     }
     .nav {
         position: fixed;
@@ -1236,11 +1239,11 @@ p {
     }
     .nav__link {
         display: block;
-        font-size: 42px;
+        font-size: 30px;
         text-align: center;
         font-weight: 700;
         margin: 20px;
-        padding: 25px 25px;
+        padding: 15px 5px;
     }
     .burger {
         display: block;
@@ -1313,6 +1316,7 @@ p {
     .Shool__title {
         font-size: 40px;
         line-height: 1.1;
+        margin-top: 30px;
     }
     .Shool__text p {
         padding: 15px 0px;
@@ -1359,6 +1363,9 @@ p {
     .Elipse__item {
         margin-top: 15px;
     }
+    .slider {
+        margin-bottom: 10px;
+    }
     .Contacts {
         margin: 0 0 15px 0;
     }
@@ -1403,35 +1410,111 @@ p {
         line-height: 44px;
     }
     .intro {
-        margin-top: 60px;
+        margin: 70px 0 35px 0; 
+    }
+    .card__title {
+        font-size: 26px;
+        line-height: 28px;
+        padding: 15px 0px 5px 0;
+    }
+    .Know__text, p {
+        font-size: 15px;
+        line-height: 1.2;
+        padding-bottom: 0px;
+    }
+    .Card__flex {
+        margin: -40px -10px 30px -10px;
+    }
+    .card__colum {
+        padding: 0px 5px;
     }
     .card__item {
         margin: -60px 0 65px 0;
     }
     .Shool__title {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 28px;
+        line-height: 30px;
+        margin-top: 60px;
+    }
+    .Shool__title-bottom {
+        margin-top: 25px;
     }
     .Shool__text {
         font-size: 16px;
-        padding: 20px 0px;
+        padding: 0;
+    }
+    .Shool__text p {
+        font-size: 16px;
     }
     .Shool__item {
-        padding: 50px 20px;
+        padding: 20px 0 0 0;
     }
     .btn {
-        font-size: 23px;
+        width: 100%;
+        font-size: 20px;
         line-height: 1.2;
         padding: 16px 30px;
-    }
-    .Elipse {
-        margin-bottom: 30px;
     }
     .Know__item {
         padding: 40px 40px;
     }
+    .Know__title {
+        font-size: 28px;
+        line-height: 32px;
+        padding-bottom: 10px;
+    }
+    .Know__text p {
+        margin-bottom: 10px;
+    }
+    .Know__btn {
+        width: 100%;
+        padding: 12px 0px;
+    }
+    .Elipse {
+        margin-bottom: 30px;
+    }
+    .block__title {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 10px 0 0 0;
+    }
+    .block__subtytle {
+        font-size: 15px;
+        line-height: 1.2;
+        padding: 8px 20px;
+        margin-left: 20px;
+    }
+    .Events {
+        margin-bottom: 20px;
+    }
+    .slider {
+        margin-bottom: 0px;
+    }
+    .Elipse__title {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 15px 5px 15px 5px;
+    }
+    .Elipse__text {
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0 5px 15px 5px;
+    }
+    .slick-list {
+        margin-bottom: -15px;
+    }
+    .slick-dots li button {
+        width: 12px;
+        height: 12px;
+        margin-bottom: 0px;
+    }
     .Contacts__item {
         padding: 20px;
+    }
+    .Contacts__contacts {
+        font-size: 30px;
+        padding-bottom: 10px;
     }
     .Contacts__adres {
         font-size: 15px;
@@ -1442,14 +1525,14 @@ p {
         display: none;
     }
     .Contacts__tel {
-        font-size: 25px;
-        line-height: 28px;
-        padding-bottom: 10px;
+        font-size: 22px;
+        line-height: 24px;
+        padding-bottom: 5px;
     }
     .Contacts__email {
         font-size: 16px;
         line-height: 18px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
     .Contacts__icon {
         width: 29px;
@@ -1459,10 +1542,14 @@ p {
         width: 100%;
     }
     .nav__link {
-        font-size: 45px;
+        padding: 23px 10px;
     }
     .footer {
         margin: 0;
+    }
+    .footer__text {
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 
@@ -1473,11 +1560,7 @@ p {
     .Card__flex {
         margin: -40px -10px 15px -10px;
     }
-    .Shool__item {
-        align-items: center;
-        margin: 60px 0 0px 0;
-        padding: 20px 0px;
-    }
+   }
     .Shool__item1 {
         margin-top: 35px;
     }
