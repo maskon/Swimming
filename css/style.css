@@ -948,6 +948,7 @@ p {
     margin: auto;
     position: relative;
     background-color: #fff;
+    border-radius: 10px;
     transform: scale(0);
     transition: transform .2s linear;
 }
