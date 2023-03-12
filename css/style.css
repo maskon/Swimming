@@ -48,7 +48,30 @@ button,
 textarea {
     font-family: inherit;
 }
-
+input:focus::-webkit-input-placeholder {
+       color: transparent !important;
+    }
+input:focus::-moz-placeholder {
+       color: transparent !important;
+    }
+input:focus::-moz-placeholder {
+    color: transparent !important;
+}
+input:focus:-ms-input-placeholder {
+    color: transparent !important;
+}
+textarea:focus::-webkit-input-placeholder {
+       color: transparent !important;
+    }
+textarea:focus::-moz-placeholder {
+       color: transparent !important;
+    }
+textarea:focus::-moz-placeholder {
+    color: transparent !important;
+}
+textarea:focus:-ms-input-placeholder {
+    color: transparent !important;
+}
 input::-ms-clear {
     display: none;
 }
@@ -1401,7 +1424,8 @@ p {
     }
     
     .modal .btn {
-        max-width: 100%;
+        max-width: 672px;
+        width: 100%;
     }
 }
 
@@ -1567,5 +1591,30 @@ p {
    }
     .Shool__item1 {
         margin-top: 35px;
+    }
+
+    .contact__left {
+        padding: 60px 10px 20px 10px;
+    }
+
+    .modal__title {
+        font-size: 25px;
+    }
+
+    .modal__subtitle {
+        font-size: 14px;
+    }
+
+    .contact__info {
+        margin: 15px 0 25px;
+    }
+
+    .form__input, .form__textarea {
+        padding: 15px 15px;
+        border-radius: 15px;
+    }
+
+    .form__textarea {
+        height: 130px;
     }
 }
